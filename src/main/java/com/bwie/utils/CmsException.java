@@ -1,9 +1,10 @@
 package com.bwie.utils;
 
-/**
- * @author ËïÔóÁú
+/***
+ * 
+ * @author å­™æ³½é¾™
  *
- * 2019Äê11ÔÂ8ÈÕ
+ * 2019å¹´11æœˆ8æ—¥
  */
 public class CmsException extends Exception{
 	

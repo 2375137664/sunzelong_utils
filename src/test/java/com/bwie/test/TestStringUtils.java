@@ -14,7 +14,7 @@ public class TestStringUtils {
 	public void testIsBlank() {
 		
 		
-		// ¶ÏÑÔ  Õæ
+		
 		assertTrue( StringUtils.isBlank("   "));
 		
 	}
@@ -22,7 +22,7 @@ public class TestStringUtils {
 	
 	@Test
 	public void testIsBlank2() {
-		//¶ÏÑÔ ¼Ù
+		
 		assertFalse( StringUtils.isBlank("aaaa"));
 	}
 	
@@ -35,7 +35,7 @@ public class TestStringUtils {
 	@Test
 	public void testStrRland() {
 		String s = StringUtils.getRandomStr2(25);
-		System.out.println(" s is " + s + "  and ³¤¶ÈÊÇ  " + s.length());
+		System.out.println(" s is " + s + "  and é•¿åº¦æ˜¯  " + s.length());
 	}
 	
 	

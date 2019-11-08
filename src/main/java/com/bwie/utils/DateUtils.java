@@ -8,10 +8,11 @@ import java.util.Locale;
 
 import com.bwie.utils.CmsException;
 
-/**
- * @author 瀛欐辰榫�
+/***
+ * 
+ * @author 孙泽龙
  *
- * 2019骞�11鏈�7鏃�
+ * 2019年11月8日
  */
 public class DateUtils {
 	
@@ -20,23 +21,23 @@ public class DateUtils {
 	public static int compare(Date date1,Date date2) {
 		
 		if (date1==null || date2==null) {
-			throw new RuntimeException("鍙傛暟涓嶈兘涓虹┖");
+			throw new RuntimeException("参数不能为空");
 		}
 		return date1.compareTo(date2);
 	}
-	/**
-	 * 
-	* @Title: calculateAge  
-	* @Description: 璁＄畻骞撮緞 
-	* @param @param birthday
-	* @param @return     
-	* @return int    
-	* @throws
-	 */
+/***
+ * 
+* @Title: calculateAge  
+* @Description: TODO  
+* @param @param birthday
+* @param @return     
+* @return int    
+* @throws
+ */
 	public static int calculateAge(Date birthday){
 		
 		if (birthday.compareTo(new Date())>0) {
-			throw new RuntimeException("缁欏畾鐨勭敓鏃ヤ笉鑳藉ぇ浜庡綋鍓嶆棩鏈�"+birthday);
+			throw new RuntimeException("生日不能大于当前日期"+birthday);
 		}
 		
 		Calendar calendar = Calendar.getInstance();

@@ -5,15 +5,15 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * @author 孙泽龙
+ * @author 瀛欐辰榫�
  *
- * 2019年11月7日
+ * 2019骞�11鏈�7鏃�
  */
 public class StringUtils {
 	/**
 	 * 
 	* @Title: isBlank  
-	* 判断是否为空
+	* 鍒ゆ柇鏄惁涓虹┖
 	* @param @param str
 	* @param @return     
 	* @return boolean    
@@ -25,7 +25,7 @@ public class StringUtils {
 	/**
 	 * 
 	* @Title: haveValue  
-	* 判断是否有值
+	* 鍒ゆ柇鏄惁鏈夊��
 	* @param @param str
 	* @param @return     
 	* @return boolean    
@@ -37,7 +37,7 @@ public class StringUtils {
 	/**
 	 * 
 	* @Title: isMobile  
-	* 判断手机号  
+	* 鍒ゆ柇鎵嬫満鍙�  
 	* @param @param str
 	* @param @return     
 	* @return boolean    
@@ -52,7 +52,7 @@ public class StringUtils {
 	/**
 	 * 
 	* @Title: isEmail  
-	* 验证邮箱 
+	* 楠岃瘉閭 
 	* @param @param str
 	* @param @return     
 	* @return boolean    
@@ -65,14 +65,14 @@ public class StringUtils {
 		return m.find();
 	}
 	/**
-	 * 
-	* @Title: getRandomStr  
-	* 获取n位随机英文字符串 
-	* @param @param n
-	* @param @return     
-	* @return String    
-	* @throws
-	 */
+     ** 
+	 ** @Title: getRandomStr  
+	 ** 鑾峰彇n浣嶉殢鏈鸿嫳鏂囧瓧绗︿覆 
+	 ** @param @param n
+	 ** @param @return     
+	 ** @return String    
+	 ** @throws
+	 **/
 	public static String getRandomStr(int n) {
 		StringBuilder sb=new StringBuilder();
 		
@@ -86,7 +86,7 @@ public class StringUtils {
 	/**
 	 * 
 	* @Title: getRandomStr2  
-	* 获取n位随机英文和数字字符串  
+	* 鑾峰彇n浣嶉殢鏈鸿嫳鏂囧拰鏁板瓧瀛楃涓�  
 	* @param @param n
 	* @param @return     
 	* @return String    
@@ -111,7 +111,7 @@ public class StringUtils {
 	/**
 	 * 
 	* @Title: getRandomCn  
-	* 获取随机中文  
+	* 鑾峰彇闅忔満涓枃  
 	* @param @param n
 	* @param @return     
 	* @return char    
@@ -134,7 +134,7 @@ public class StringUtils {
             str = new String(b, "GBK");
         } catch (Exception e) {
             e.printStackTrace();
-            System.out.println("错误");
+            System.out.println("閿欒");
         }
 
         	return str.charAt(0);
@@ -143,7 +143,7 @@ public class StringUtils {
 	/**
 	 * 
 	* @Title: getRandomCnn  
-	* 随机获取汉字字符串  
+	* 闅忔満鑾峰彇姹夊瓧瀛楃涓�  
 	* @param @param n
 	* @param @return     
 	* @return String    
